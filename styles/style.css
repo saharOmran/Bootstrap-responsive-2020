@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: poppinsBold;
+  src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+:root {
+  --blueGradiant: #3b2a9f;
+  --purpleGradient: #5141aa;
+  --orange: #fa8305;
+  --box_bg: #1c140f;
+}
+
+.f-bold {
+  font-family: poppinsBold;
+}
+.f-regular {
+  font-family: poppinsRegular;
+}
+
+.bg-blueGradiant{
+    background-color: var(--blueGradiant);
+}
+
+
+.bg-orange{
+  background-color: var(--orange);
+}
+
+.object_pop {
+  transition: 0.5s;
+}
+
+.object_pop:hover {
+  scale: 110%;
+}
+
+.unity-image{
+  position: absolute;
+  top: 230px;
+  width: 90px;
+  left: 20px;
+}
+
+
+.troller-image{
+  position: relative;
+  left: 150px;
+  width: 450px;
+  height: 570px;
+  top: -50px;
+}
+
+.cry-image{
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 80px;
+  width: 101px;
+  height: 99px;
+}
+
+.unreal-image{
+  position: absolute;
+  width: 60px;
+  height: 64px;
+  margin-top: 100px;
+  margin-left: 420px 
+}
+
+
+.button-see{
+  margin-left: 580px;
+}
+
+.image_Cards {
+  width: 220px;
+  height: 250px;
+  cursor: pointer;
+} 
+
+.card-trans:hover{
+  opacity: 50%;
+  scale:90%
+}
+
+.title-cards:hover{
+  .fire{
+    scale: 110%;
+  }
+}
+
+
+
+ 
