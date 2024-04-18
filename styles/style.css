@@ -11,7 +11,7 @@
   --blueGradiant: #3b2a9f;
   --purpleGradient: #5141aa;
   --orange: #fa8305;
-  --box_bg: #1c140f;
+  --brown: #1c140f;
 }
 
 .f-bold {
@@ -25,7 +25,9 @@
     background-color: var(--blueGradiant);
 }
 
-
+.bg-brown{
+  background-color: var(--brown);
+}
 .bg-orange{
   background-color: var(--orange);
 }
@@ -92,6 +94,40 @@
   }
 }
 
+.spiderman-image{
+  width:573px;
+  height: 462px;
+  border-radius: 10px;
+  object-fit: cover; 
+  object-position: center 
+}
 
+.projects-image{
+  width: 380px;
+  height: 220px;
+}
+.projects-image2{
+  width: 240px;
+  height: 220px;
+}
+
+.image-project3{
+  width: 400px;
+  height: 223px;
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 18px;
+  padding-right: 50px;
+  margin-right: 20px;
+  color: gray;
+}
+.search-box{
+  width: 1200px;
+  margin-left: -60px;
+  
+}
 
  
