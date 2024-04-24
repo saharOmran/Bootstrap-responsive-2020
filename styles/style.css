@@ -124,6 +124,31 @@
   margin-right: 20px;
   color: gray;
 }
+
+#fire1:hover #fire-icon{
+  transform: scale(1.5);
+      transition: transform 0.3s ease-in-out;
+}
+
+#fire2:hover #fire-icon{
+  transform: scale(1.5);
+      transition: transform 0.3s ease-in-out;
+}
+
+#fire3:hover #fire-icon{
+  transform: scale(1.5);
+      transition: transform 0.3s ease-in-out;
+}
+
+#fire4:hover #fire-icon{
+  transform: scale(1.5);
+      transition: transform 0.3s ease-in-out;
+}
+
+#images:hover{
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
  
 
  

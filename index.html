@@ -31,12 +31,7 @@
     
     <header class="container-lg pt-3 d-flex justify-content-around align-items-center  ">
       <h1 class="f-bold text-white ">LOGO</h1>
-      <div></div>
       <div class="d-lg-none d-md-flex d-sm-flex ">
-        <button class="border border-white rounded" style="background-color:transparent;" onclick="toggleVisibility()"><svg xmlns="http://www.w3.org/2000/svg" fill="white" width="30" height="30" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-        </svg>
-        </button>
       </div>
       <div class="d-lg-inline d-sm-none d-md-none d-none">
         <a href="index.html" class="text-white p-3  text-decoration-none">Home</a>
@@ -47,16 +42,27 @@
       
       </div>
     </header>
-    <div class="py-1 my-3 d-lg-none w-100 bg-purpleGradient" id="side">
-      <div class="d-flex justify-content-center text-center flex-column align-items-center">
-        <a href="index.html" class="text-white p-3  text-decoration-none">Home</a>
-        <a href="games.html" class="text-white p-3  text-decoration-none">Games</a>
-        <a href="#" class="text-white p-3  text-decoration-none">About us</a>
-        <a href="#" class="text-white p-3  text-decoration-none">News</a>
-              
-        <a href="#" ></a><button class="object_pop my-1 btn bg-secondary text-white">light</button></a>
-      </div>
+
+
+  <div class="py-1 my-3 d-lg-none w-100 bg-purpleGradient" id="side">
+    <div class="d-flex justify-content-center text-center flex-column align-items-center ">
+        <button class="btn  justify-center-end text-align-end bor border border-white rounded" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style=" background-color:rgba(255, 99, 71, 0); margin-left:300px; margin-top:-90px">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="40" height="40" class="bi bi-list" viewBox="0 0 16 16"style="background-color:rgba(255, 99, 71, 0)" >
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+     </button>
+      <ul class="dropdown-menu" >
+      <li><a href="index.html" class="text-black p-3  text-decoration-none dropdown-item">Home</a></li>
+      <li><a href="games.html" class="text-black p-3  text-decoration-none dropdown-item">Games</a></li>
+      <li><a href="#" class="text-black p-3  text-decoration-none dropdown-item">About us</a></li>
+      <li><a href="#" class="text-black p-3  text-decoration-none dropdown-item">News</a></li>
+      <a href="#" ></a><button class="btn bg-orange text-white">light</button></a>
+    </ul>
+ 
+      
     </div>
+  </div>
+ 
      
       
 
@@ -74,59 +80,59 @@
           <img src="assets/images/unity 1.svg" alt="unity" class="unity-image d-lg-inline d-md-none d-sm-none d-none">
           <img src="assets/images/cry 1.svg" alt="" class="cry-image d-lg-inline d-md-none d-sm-none d-none">
           <img src="assets/images/unreal 1.svg" alt="" class="unreal-image d-lg-inline d-md-none d-sm-none d-none">
-          <img src="assets/images/joy_stick 1.svg" alt="troller" class="troller-image d-lg-inline d-md-inline d-sm-none d-none" >
+          <img src="assets/images/joy_stick 1.svg" alt="troller" class="troller-image d-lg-inline d-md-inline d-sm-none d-none " >
       </div>
       </section>
 
       <section>
-      <nav class="container-lg d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start align-items-center">
-          <h1 class="text-white py-4"><small>Currently Trending Games</small></h1>
-          <button class="button-see object_pop rounded opacity-50 text-black bg-white d-md-none d-sm-none d-lg-inline">SEE ALL</button>
+      <nav class="container-lg d-flex justify-content-sm-center justify-content-md-center justify-content-lg-start align-items-center">
+          <h1 class="text-white py-4  "><small>Currently Trending Games</small></h1>
+          <button class="button-see object_pop rounded opacity-50 text-black bg-white d-none d-md-none d-sm-none d-lg-inline">SEE ALL</button>
       </nav>
     
       
-          <ul class="d-flex row container-lg  mx-auto aling-items-center">
-          <li class="card-trans card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
-              <img src="assets/images/Rectangle 23.svg" class="image-cards rouded card-img-top">
-              <div class="d-flex align-items-center justify-content-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16">
-                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
-                </svg>
-                <h5 class="text-white card-title text-center mt-3">40 followers</h5>
-              </div>
-              
-          </li>
-      
-          <li class="card-trans card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
-              <img src="assets/images/Rectangle 24.svg" class="image-cards rouded card-img-top">
-              <div class="d-flex align-items-center justify-content-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16">
-                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
-                </svg>
-                <h5 class="text-white card-title text-center mt-3">40 followers</h5>
-              </div>
-          </li>
+      <ul class="d-flex row container-lg  mx-auto aling-items-center">
+        <li class=" card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
+            <img src="assets/images/Rectangle 23.svg" class="image-cards rouded card-img-top" id="images">
+            <div class="d-flex align-items-center justify-content-center"id="fire1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16" id="fire-icon">
+                  <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+              </svg>
+              <h5 class="text-white card-title text-center mt-3">40 followers</h5>
+            </div>
+            
+        </li>
+    
+        <li class="card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
+            <img src="assets/images/Rectangle 24.svg" class="image-cards rouded card-img-top" id="images">
+            <div class="d-flex align-items-center justify-content-center"id="fire2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16" id="fire-icon">
+                  <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+              </svg>
+              <h5 class="text-white card-title text-center mt-3">40 followers</h5>
+            </div>
+        </li>
 
-          <li class="card-trans card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
-              <img src="assets/images/Rectangle 25.svg" class="image-cards rouded card-img-top">
-              <div class="d-flex align-items-center justify-content-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16">
-                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
-                </svg>
-                <h5 class="text-white card-title text-center mt-3">40 followers</h5>
-              </div>
-          </li>
+        <li class="card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
+            <img src="assets/images/Rectangle 25.svg" class="image-cards rouded card-img-top" id="images">
+            <div class="d-flex align-items-center justify-content-center " id="fire3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-fire" viewBox="0 0 16 16" id="fire-icon">
+                  <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+              </svg>
+              <h5 class="text-white card-title text-center mt-3">40 followers</h5>
+            </div>
+        </li>
 
-          <li class="card-trans card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
-              <img src="assets/images/Rectangle 26.svg" class="image-cards rouded card-img-top">
-              <div class="d-flex align-items-center justify-content-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="fire bi bi-fire" viewBox="0 0 16 16">
-                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
-                </svg>
-                <h5 class="title-cards text-white card-title text-center mt-3">40 followers</h5>
-              </div>
-          </li>
-      </ul>
+        <li class="card bg-blueGradiant col-lg-3 col-md-6 col-sm-12 border-0">
+            <img src="assets/images/Rectangle 26.svg" class="image-cards rouded card-img-top" id="images">
+            <div class="d-flex align-items-center justify-content-center"id="fire4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="fire bi bi-fire" viewBox="0 0 16 16" id="fire-icon">
+                  <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+              </svg>
+              <h5 class="title-cards text-white card-title text-center mt-3">40 followers</h5>
+            </div>
+        </li>
+    </ul>
 
       </section>
       <section class="container-lg">
@@ -163,40 +169,40 @@
           <div class="row container-lg d-flex justify-content-center align-items-center ">
             <div class="row container-lg d-none d-sm-none d-md-none d-lg-flex justify-content-center align-content-center">
               <div class="row m-2 container-lg d-flex">
-                <img src="assets/images/Rectangle 15.svg" alt="container-img1" class="  col-4 rounded" height="232">
-                <img src="assets/images/Rectangle 16.svg" alt="container-img1" class="  col-4 rounded"  height="232">
-                <img src="assets/images/Rectangle 17.svg" alt="container-img1" class="  col-4 rounded " height="232">
+                <img src="assets/images/Rectangle 15.svg" alt="container-img1" class="  col-4 rounded" >
+                <img src="assets/images/Rectangle 16.svg" alt="container-img1" class="  col-4 rounded"  >
+                <img src="assets/images/Rectangle 17.svg" alt="container-img1" class="  col-4 rounded " >
               </div>
               <div class="row m-2 container-lg">
-                <img src="assets/images/Rectangle 19.svg" alt="container-img1" class=" col-2 rounded" width="246" height="223">
-                <img src="assets/images/Rectangle 18.svg" alt="container-img1" class=" col-3 rounded" width="441" height="222">
-                <img src="assets/images/Rectangle 20.svg" alt="container-img1" class=" col-5 rounded" width="469" height="232">
+                <img src="assets/images/Rectangle 19.svg" alt="container-img1" class=" col-4 rounded" style=" height:223px; width:246px;">
+                <img src="assets/images/Rectangle 18.svg" alt="container-img1" class=" col-4 rounded" >
+                <img src="assets/images/Rectangle 20.svg" alt="container-img1" class=" col-7 rounded" style=" height:223px; width:246px;">
               </div>
             </div>
 
-            <div class="row container-lg d-none d-sm-none d-lg-none d-md-flex justify-content-center align-content-center">
+            <div class="row container-lg d-none d-sm-none d-lg-none d-md-flex justify-content-center align-content-center ">
               <div class="row m-2 container-lg">
-                <img src="assets/images/Rectangle 17.svg" alt="container-img1" class="projects-image col-6 rounded">
-                <img src="assets/images/Rectangle 20.svg" alt="container-img1" class="projects-image2 flex-column col-4 rounded">
+                <img src="assets/images/Rectangle 17.svg" alt="container-img1" class="projects-image col-6 rounded" style="height:223px; width:352px;">
+                <img src="assets/images/Rectangle 20.svg" alt="container-img1" class="projects-image2 flex-column col-4 rounded" style="height:223px; width:280px;">
                 
                 
               </div>
               <div class="row m-2 container-lg">
-                <img src="assets/images/Rectangle 15.svg" alt="container-img1" class="projects-image2 col-5 rounded">
-                <img src="assets/images/Rectangle 16.svg" alt="container-img1" class="projects-image col-5 rounded">
+                <img src="assets/images/Rectangle 15.svg" alt="container-img1" class="projects-image2 col-5 rounded" style="height:223px; width:305px;">
+                <img src="assets/images/Rectangle 16.svg" alt="container-img1" class="projects-image col-5 rounded" style="height:223px; width:335px;">
                 
               </div>
               <div class="row m-2 container-lg"> 
-                <img src="assets/images/Rectangle 19.svg" alt="container-img1" class="projects-image col-2 rounded">
-                <img src="assets/images/Rectangle 18.svg" alt="container-img1" class="projects-image2  col-7 rounded">
+                <img src="assets/images/Rectangle 19.svg" alt="container-img1" class="projects-image col-2 rounded" style="height:223px; width:246px;">
+                <img src="assets/images/Rectangle 18.svg" alt="container-img1" class="projects-image2  col-7 rounded" style="height:223px; width:401px;">
                 
               </div>
             </div>
 
             <div class="row container-lg d-flex d-sm-flex d-md-none d-lg-none justify-content-center align-content-center">
-                <img src="assets/images/Rectangle 17.svg" alt="container-img2" class="image-project3 col-11 my-3 mx-3" >
-                <img src="assets/images/Rectangle 20.svg" alt="container-img2" class="image-project3 col-11 mx-3"  >
-                <img src="assets/images/Rectangle 15.svg" alt="container-img3" class="image-project3 col-11 my-3 mx-3" >
+                <img src="assets/images/Rectangle 17.svg" alt="container-img2" class="image-project3 col-11 my-3 mx-3" style="width: 450px; height: 230px;" >
+                <img src="assets/images/Rectangle 20.svg" alt="container-img2" class="image-project3 col-11 mx-3"  style="width: 450px; height: 230px;">
+                <img src="assets/images/Rectangle 15.svg" alt="container-img3" class="image-project3 col-11 my-3 mx-3" style="width: 450px; height: 230px;">
             </div>
           </div>
         </div>
@@ -216,13 +222,13 @@
         </div>
         <div class="search-box d-flex justify-content-center">
           <div class=" bg-brown rounded-5 py-2 w-75 d-flex flex-column align-items-center flex-sm-column flex-md-column flex-lg-row justify-content-center rounded-4">
-            <div class="d-flex flex-column justify-content-between px-5 py-5 col-lg-7 col-md-10 col-sm-10 align-items-lg-start align-items-md-start align-items-sm-center text-lg-start text-md-start">
+            <div class="d-flex flex-column justify-content-between px-5 py-5 col-lg-7 col-md-10 col-sm-10 align-items-lg-start align-items-md-start align-items-sm-center text-lg-start text-md-start" style="margin-right: -30px;">
               <h3 class="f-bold text-white">Stay in the loop</h3>
               <h6 class="text-white">Subscribe to receive the latest news and updates about TDA.
                 We promise not to spam you!</h6>
             </div>
           
-            <div class="d-flex px-2flex-column row bg-white col-lg-5 col-md-10 col-sm-10 justify-content-center align-content-center mx-auto rounded-3">
+            <div class="d-flex px-2flex-column row bg-white col-lg-5 col-md-10 col-sm-10 justify-content-center align-content-center mx-auto rounded-3 " >
               <div class="search">
                 <input type="text" value="Enter email address" class="d-flex flex-column col-lg-5 w-75 border border-0">
                 <button class="btn btn-warning border flex-column col-lg-5 border-0 text-white bg-orange rounded-3 mx-9">continue</button>
@@ -232,21 +238,21 @@
         </div>
       </section>
       
-      <footer class="bg-black">
+      <footer class="bg-black mx-auto justify-content-center text-start">
         <div class="d-flex justify-content-center text-white mt-5">
-          <div class="d-flex justify-content-center row container-lg">
+          <div class="d-flexjustify-content-center row container-lg">
 
-            <div class="d-flex justify-content-center flex-column col-lg-4 col-md-6 col-sm-12">
-              <h4 class="f-bold">LOGO</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <p>@LOGO</p>
+            <div class="d-flex  justify-content-center flex-column col-lg-4 col-md-6 col-sm-12 ">
+              <h4 class="f-bold pt-4" >LOGO</h4>
+              <p  >Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <p >@LOGO</p>
             </div>
 
             <div class="d-flex flex-column col-lg-2 col-md-6 col-sm-12 py-5 mt-5">
                 <ul style="list-style: none;">
                   <li><a class="text-decoration-none text-white" href="#">About us</a></li>
                   <br>
-                  <li><a class="text-decoration-none text-white"href="#">zeux</a></li>
+                  <li><a class="text-decoration-none text-white" href="#">zeux</a></li>
                   <li><a class="text-decoration-none text-white"href="#">portfolio</a></li>
                   <li><a class="text-decoration-none text-white"href="#">careers</a></li>
                   <li><a class="text-decoration-none text-white"href="#">Contact us</a></li>
@@ -261,12 +267,12 @@
               <p>+0908089097890</p>
             </div>
 
-            <div class="d-flex justify-content-center flex-column col-lg-2 col-md-6 col-sm-12 py-4 align-items-end justify-content-ld-start justify-content-md-start justify-content-sm-start justify-content-start">
-              <i><img src="./assets/images/Group 5.svg" class="object-pop p-1 mx-1" ></img></i>
-              <i><img src="./assets/images/Group 10.svg" class="object-pop p-1 mx-1" ></img></i>
-              <i><img src="./assets/images/Group 11.svg" class="object-pop p-1 mx-1" ></img></i>
-              <i><img src="./assets/images/Group 9.svg" class="object-pop p-1 mx-1" ></img></i>
-            </div>
+            <div class="d-flex col-lg-2 col-md-6 col-sm-12 align-items-end justify-content-ld-start justify-content-md-start justify-content-sm-start justify-content-start justify-content-sm-center ">
+              <img src="assets/images/Group 5.svg" class="object-pop p-1 "  style="margin-left: 60px;">
+              <img src="assets/images/Group 11.svg" class="object-pop p-1 " />
+              <img src="assets/images/Group 10.svg" class="object-pop p-1" />
+              <img src="assets/images/Group 9.svg" class="object-pop p-1 " />
+          </div>
           </div>
         </div>
 
